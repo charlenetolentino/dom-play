@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Project Name</title>
+     <title>DOM Play</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/forms.css">
+
+  <style>
+    .hamlet {
+     /*background-color: yellow;*/
+    }
+
+    #play span {
+     /* background-color: blue;*/
+    }
+    
+  </style>
+  
  </head>
  <body>
      <header>
-     <h1 class="page-header"><b>Site Name</b></h1>
+     <h1 class="page-header"><b>DOM Play</b></h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
             <a href="#">Link X</a>
@@ -22,12 +34,36 @@
      </header>
      
    <main class="wrapper">  
-       <h2 class="subheader">Project Name</h2>
-        <p>Clever content goes here</p>
+       <h2 class="subheader">DOM Play: The Last Act of <i>"Goldilocks and the Three Bears"</i></h2>
+       <div id="play">
+        <p><span data-actor=”narrator”>Narrator: Goldilocks was very tired by this time, so she went upstairs to the bedroom. She lay down in the first bed.</span></p>
+        <p><span data-actor=”goldilocks”>Goldilocks: This bed is too hard. </span></p>
+        <p><span data-actor=”narrator”>Narrator: Then she lay down in the second bed. </span></p>
+        <p><span data-actor=”goldilocks”>Goldilocks: This bed is too soft. </span></p>
+        <p><span data-actor=”narrator”>Narrator: Then she lay down in the third bed. </span></p>
+        <p><span data-actor=”goldilocks”>Goldilocks: Just right! </span></p>
+        <p><span data-actor=”narrator”>Narrator: Goldilocks fell asleep. As she was sleeping, the three bears came home and went into the kitchen. </span></p>
+        <p><span data-actor=”papa”>Papa Bear: Someone’s been eating my porridge. </span></p>
+        <p><span data-actor=”mama”>Mama Bear: Someone’s been eating my porridge, too</span></p>
+        <p><span data-actor=”baby”>Baby Bear: Someone’s been eating my porridge, and they ate it all up! </span></p>
+        <p><span data-actor=”narrator”>Narrator: Then the tree bears went into the Living Room. </span></p>
+        <p><span data-actor=”papa”>Papa Bear: Someone’s been sitting in my chair! </span></p>
+        <p><span data-actor=”mama”>Mama Bear: Someone’s been sitting in my chair, too! </span></p>
+        <p><span data-actor=”baby”>Baby Bear: Someone’s been sitting in my chair, and broke it! </span></p>
+        <p><span data-actor=”narrator”>Narrator: Then the three bears decided to look around some more and when they got upstairs to the bedroom. </span></p>
+        <p><span data-actor=”papa”>Papa Bear: Someone’s been sleeping in my bed! </span></p>
+        <p><span data-actor=”mama”>Mama Bear: Someone’s been sleeping in my bed, too! </span></p>
+        <p><span data-actor=”baby”>Baby Bear: Someone’s been sleeping in my bed, and she’s still there! </span></p>
+        <p><span data-actor=”narrator”>Narrator: Just then, Goldilocks woke up and saw the three bears. </span></p>
+        <p><span data-actor=”goldilocks”>Goldilocks: Ahhhhh!! Help! </span></p>
+        <p><span data-actor=”narrator”>Narrator: And she jumped up and ran out of the room. Goldilocks ran down the stairs, opened the door, and ran away into the forest. She never returned to the home of the three bears. </span></p>
+        <p><span data-actor=”threebears”>3 Bears: Good-byeeeeeeee!! (Waving their hands together) </span></p>
+        
+      </div>
 
      <footer>
       <p><small>&copy; 2021-<span id="this-year"></span> by
-        YOUR NAME HERE, All Rights Reserved ~ 
+        Charlene Tolentino, All Rights Reserved ~ 
           <a id="html-checker" href="#" target="_blank">Check HTML</a> ~ 
           <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
      </p>
